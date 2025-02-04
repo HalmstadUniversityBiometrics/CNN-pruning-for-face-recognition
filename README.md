@@ -35,7 +35,10 @@ Afterwards, the pruning algorithm starts using the trained networks as input, wh
 After training, feature vectors for biometric verification are extracted from the layer adjacent to the classification layer (i.e., the Global Average Pooling). These feature vectors are then used to conduct biometric verification experiments. 
 
 # Provided models
-  - We provide both the models after **pruning**, and after **pruning + fine-tuning** again. They are easily distinguishable in the folder names of the provided files. 
+  - We provide both the models after **pruning**, and after **pruning + fine-tuning** again. They are easily distinguishable in the folder names of the provided files.
+  - ResNet50 models:  [Google Drive](https://drive.google.com/file/d/1QI3B4Dl6zDsoqb4ircPSXJH-hvlUKyca/view?usp=sharing) (12.2 Gb)
+  - MobileNetv2 models: [Google Drive](https://drive.google.com/file/d/1nHWBxG8ggnQW2n29OtGHXfl2Vhon0M5z/view?usp=sharing) (1.15 Gb)
+  - SqueezeNet models: [Google Drive](https://drive.google.com/file/d/18cvkudYFCPUG9dUGZDeFDnNkNpz0bUfh/view?usp=sharing) (591 Mb)
 
 # Requirements
   - Matlab software (.mat models produced in r2023b). The models have also been exported to **onnx models** using the Matlab function "exportONNXNetwork" in r2024b.
