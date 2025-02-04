@@ -9,7 +9,6 @@ Pattern Recognition Letters,
 2025,
 ISSN 0167-8655,
 https://doi.org/10.1016/j.patrec.2025.01.023.
-(https://www.sciencedirect.com/science/article/pii/S0167865525000169)
 
 # Summary
 
