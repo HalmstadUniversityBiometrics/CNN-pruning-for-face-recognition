@@ -40,3 +40,9 @@ After training, feature vectors for biometric verification are extracted from th
   - **Input images must be of 113 x 113**.
   - We follow the tight crop of VGGFace2, with an extra 30% increase of the face bounding box, so some contextual information is added around the face. See attached examples to see how the input images should look like. The bounding box of VGG2 images is resized so the shortest side of the image has 129 pixels. Then, a 113x113 crop is taken.
   - The network is trained with images with some random displacement in horizontal and vertical dimensions (by taking a random 113x113 crop of the image during training), so it should be somehow tolerant to non-centered faces, althought it has not been tested (during testing, we only employ the center 113x113 crop of the bounding box). Bounding boxes provided with the VGG2 database are obtained using the MTCNN detector. See the VGGFace2 paper for more details.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/428dda6b-9b4a-4ef3-97d6-2c686250d0b9"/ style="width: 75%;">
+</p>
+
+
