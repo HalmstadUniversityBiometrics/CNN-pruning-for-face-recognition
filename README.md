@@ -20,6 +20,10 @@ We observe that **a substantial percentage of filters can be removed with minima
   <img src="https://github.com/user-attachments/assets/a74d8f91-b10c-47a6-81e0-110ed016d9d0"/ style="width: 75%;">
 </p>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f604c7ee-9e6b-4416-bde4-223c6e329727"/ style="width: 75%;">
+</p>
+
 # Implementation details
 
 The models are trained on the MS-Celeb-1M and VGGFace2 databases (6.47M images in total). The networks have undergone a double fine-tuning, first over the MS1M-RetinaFace cleaned set (35k users/3.16M images, only users with more than 70 images), and then over VGGFace2 (9k users/3.31M images). Although VGG2 contains fewer users, it has more intra-class diversity due to more images per user. Due to this fact, the double fine-tuning strategy employed has shown increased performance compared to training the models only with one database, especially if it has few images per identity. This double fine-tuning implementation is suggested in the paper [VGGFace2: A dataset for recognising faces across pose and age](https://arxiv.org/abs/1710.08092).
