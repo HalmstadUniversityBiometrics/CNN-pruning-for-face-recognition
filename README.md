@@ -21,7 +21,7 @@ We observe that **a substantial percentage of filters can be removed with minima
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f604c7ee-9e6b-4416-bde4-223c6e329727"/ style="width: 75%;">
+  <img src="https://github.com/user-attachments/assets/f604c7ee-9e6b-4416-bde4-223c6e329727"/ style="width: 95%;">
 </p>
 
 # Implementation details
