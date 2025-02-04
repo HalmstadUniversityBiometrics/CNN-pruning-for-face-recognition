@@ -17,7 +17,7 @@ In the paper, we test a **CNN network pruning method based on Taylor scores** in
 We observe that **a substantial percentage of filters can be removed with minimal performance loss**. Also, filters with the highest amount of output channels tend to be removed first, suggesting that **high-dimensional spaces within popular CNNs are over-dimensioned**.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a74d8f91-b10c-47a6-81e0-110ed016d9d0"/>
+  <img src="https://github.com/user-attachments/assets/a74d8f91-b10c-47a6-81e0-110ed016d9d0"/ style="width: 50%;">
 </p>
 
 # Implementation details
