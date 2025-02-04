@@ -38,7 +38,7 @@ After training, feature vectors for biometric verification are extracted from th
   - We provide both the models after **pruning**, and after **pruning + fine-tuning** again. They are easily distinguishable in the folder names of the provided files. 
 
 # Requirements
-  - Matlab software (tested in r2023b). The models can be easily exported to **onnx models** using the Matlab function "exportONNXNetwork" (it is in our TO DO list to do so and upload the models to this repository).
+  - Matlab software (.mat models produced in r2023b). The models have also been exported to **onnx models** using the Matlab function "exportONNXNetwork" in r2024b.
 
 # Pre-processing
   - **Input images must be of 113 x 113**.
